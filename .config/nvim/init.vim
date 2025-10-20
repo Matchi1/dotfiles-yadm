@@ -43,7 +43,6 @@ map <leader>do :DiffviewOpen<CR>
 map <leader>dc :DiffviewClose<CR>
 map <leader><C-E> :Vifm<CR>
 map <C-N> :tabnew<CR>
-set pastetoggle=<F3>
 
 set noeol nofixeol
 
