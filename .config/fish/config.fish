@@ -18,6 +18,8 @@ export PATH="$HOME/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin:$PATH"
 export PATH="$HOME/workspace/toolchain/gcc-linaro-5.2-2015.11-2-x86_64_aarch64-linux-gnu/bin:$PATH"
 export PATH="$HOME/workspace/util-scripts:$PATH"
 export PATH="$HOME/kitty/bin:$PATH"
+export PATH="$HOME/jetbrains-toolbox/bin:$PATH"
+export PATH="$HOME/android-studio/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 if [ -f "$NVM_DIR/nvm.sh" ]
@@ -25,6 +27,8 @@ if [ -f "$NVM_DIR/nvm.sh" ]
 end
 
 # GO PATH
+export PATH="$HOME/.local/go/bin:$PATH"
+# Executable installed through "go install" command
 export PATH="$HOME/go/bin:$PATH"
 # export LD_LIBRARY_PATH="/home/linuxbrew/.linuxbrew/lib/"
 
