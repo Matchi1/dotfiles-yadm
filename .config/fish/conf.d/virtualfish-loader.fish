@@ -1,4 +1,4 @@
-set -g VIRTUALFISH_VERSION 2.5.5
-set -g VIRTUALFISH_PYTHON_EXEC /usr/bin/python3
-source /home/mathieu.chan/.local/lib/python3.10/site-packages/virtualfish/virtual.fish
+set -g VIRTUALFISH_VERSION 2.5.9
+set -g VIRTUALFISH_PYTHON_EXEC /home/mathieu/.local/share/pipx/venvs/virtualfish/bin/python
+source /home/mathieu/.local/share/pipx/venvs/virtualfish/lib/python3.10/site-packages/virtualfish/virtual.fish
 emit virtualfish_did_setup_plugins
