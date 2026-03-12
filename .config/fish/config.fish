@@ -44,3 +44,6 @@ end
 
 # start ssh-agent for fish
 fish_ssh_agent
+
+# Generated for envman. Do not edit.
+test -s ~/.config/envman/load.fish; and source ~/.config/envman/load.fish
