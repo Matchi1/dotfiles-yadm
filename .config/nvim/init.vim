@@ -3,6 +3,9 @@ let mapleader=" "
 let g:python3_host_prog = '/usr/bin/python3'
 let g:isort_command = 'isort'
 
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
 source $HOME/.config/nvim/plugged/plugins.vim
 
 lua require("config")
